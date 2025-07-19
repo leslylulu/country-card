@@ -1,12 +1,7 @@
 // https://www.apicountries.com/countries
+import type { CountrySimple } from '@/types/country'
 
-type Country = {
-	id: string;
-	name: string;
-	currency: string[];
-	flag: string;
-};
-export async function getAllCountries(): Promise<Country[]> {
+export async function getAllCountries(): Promise<CountrySimple[]> {
 	const res = await fetch('https://www.apicountries.com/countries');
 
 	if(!res.ok){
