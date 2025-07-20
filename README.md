@@ -1,3 +1,18 @@
+# Country Card Project
+
+This project displays information about countries in a card format. It includes details such as:
+
+- Country name
+- Currency symbol and name
+- Country flag
+
+## Features
+
+- Responsive design that works on mobile and desktop
+- Clean card-based UI for displaying country information
+- Next.js Image optimization for flags and emblems
+- Mobile-friendly layout with proper image handling
+
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
 ## Getting Started
