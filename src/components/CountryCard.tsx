@@ -32,7 +32,7 @@ export default function CountryCard({ country }: CountryCardProps) {
 			</div>
 
 			{/* row 2 */}
-			<div className="grid grid-cols-1 md:grid-cols-3 gap-6 md:aspect-[4/1] h-auto">
+			<div className="grid grid-cols-1 md:grid-cols-3 gap-6 aspect-auto md:aspect-[4/1] h-auto">
 			{/* logo of army */}
 				<div className="col-span-1 md:col-span-1 aspect-[3/1] md:md:aspect-auto rounded-lg bg-gray-100 relative h-full">
 					<Image
