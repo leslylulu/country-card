@@ -28,8 +28,8 @@ export default function CountryPage({
 	}, [countries, activeId]);
 
 	return (
-		<div className="container flex flex-col w-screen">
-			<div className='p-4 md:p-8 lg:p-12'>
+		<div className="container mx-auto flex py-12 flex-col ">
+			<div className='mx-4'>
 				<Tabs
 					data={countries}
 					activeItem={activeCountry}

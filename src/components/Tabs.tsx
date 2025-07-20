@@ -43,7 +43,7 @@ export default function Tabs<T extends TabItemBase>({
 
 	return (
 		<div className="overflow-x-auto scrollbar-hide border-black rounded max-w-full" ref={tabsRef} style={{ scrollbarWidth: 'none', msOverflowStyle: 'none' }}>
-			<div className="flex whitespace-nowrap gap-3 px-2">
+			<div className="flex whitespace-nowrap gap-3">
 				{data.map((item) => {
 					const isActive = item.id === activeId
 					return (
